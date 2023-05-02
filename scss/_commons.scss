@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+}
+
+body{
+     background-color: rgb(12, 11, 11);
+     background-attachment:fixed;
+    
+  }
+h1{
+    font-weight: $fontBolt;
+    font-size: $textLg ;
+    margin: 45px;
+           
+   }
+
+h2{
+    font-weight: $fontBolt;
+    font-size:$textMd;
+    margin: 45px;
+}

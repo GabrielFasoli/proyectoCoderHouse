@@ -1,0 +1,27 @@
+//colores
+$mainColor: rgb(255, 255, 255);
+$secondaryColor:rgb(152, 148, 148);
+$mainBg:black;
+
+//font
+$mainFont:'Poppins', sans-serif;
+
+//size
+$textSm:1.1em;
+$textMd:2.2em;
+$textLg:2.5em;
+
+//font weigth
+$fontLigth:200;
+$fontRegular:300;
+$fontBolt:600;
+
+
+//mixins
+@mixin flex($direction,$justify,$aling,$wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-wrap: $wrap;
+}

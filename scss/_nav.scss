@@ -1,0 +1,59 @@
+.botonera{
+    
+    background-color: $mainBg;
+        img{
+            height: 110px;
+            margin-left: 35px;
+            margin-bottom: 6px;
+            
+        }
+  
+        ul{
+            display: flex;
+            font-family: $mainFont;
+            font-size: $textSm;
+            margin: 0px 10px;
+
+            li{  
+                margin: 0 10px;
+                a{  
+                    margin: 0px 15px;
+                    color: $mainColor;
+                    &:hover{
+                        color:$secondaryColor;
+                    }
+                }
+            }
+        }
+        form{
+            input{
+                font-size: 0.7em;
+                padding: 5px;
+            }
+            button{
+                width: 45px;
+                border: none;
+                background-color: black;
+                border-color: rgb(0, 0, 0);
+                color: rgb(254, 254, 254);
+            }
+        }
+    }
+.carrito{
+        color: $mainColor;
+        width: 40px;
+        border: none;
+        background-color: rgb(0, 0, 0);
+     }
+.carrito2{
+        color: $mainColor;
+        width: 45px;
+        border: none;
+        background-color: rgb(0, 0, 0);
+    }
+
+.burger{
+    width: 40px;
+    }
+
+

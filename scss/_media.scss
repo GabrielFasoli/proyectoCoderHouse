@@ -1,0 +1,96 @@
+
+@media(width<992px){ 
+    .alineado{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .none{
+        display: none;
+    }
+    
+    h1, h2{
+        text-align: center;
+    }
+    .contenedor{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px repeat(2,1fr);
+        grid-template-areas: "uno uno "
+        "dos tres"
+        "cuatro cinco";
+   
+    }
+    
+    .uno  {
+        justify-content: center;
+        align-items: center;
+    }
+    .tres{
+        
+        flex-direction: column;
+       
+        align-items: center;
+        }
+        .tres img{
+            width: auto;
+        }
+        .tres a{
+            width: 100%;
+        }
+       
+        
+}
+
+@media(width<576px){
+   
+    h1, h2{
+    
+        text-align: center;
+    }
+    .contenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: 5 auto;
+        gap: 10px;
+        grid-template-areas: "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco";
+        
+    }
+    .uno  {
+        justify-content: center;
+        align-items: center;
+    }
+    .tres{
+        
+        flex-direction: column;
+       
+        align-items: center;
+        }
+        .tres img{
+            width: auto;
+        }
+        
+    .tres a{
+       width: 100%;
+        
+    }
+     footer{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        
+     }
+     footer ul{
+        flex-direction: column ;
+        margin: 0px;
+   
+     }
+     footer ul li{
+        margin-top:2px ;
+        margin-bottom: 1px;
+     }
+   
+
+}

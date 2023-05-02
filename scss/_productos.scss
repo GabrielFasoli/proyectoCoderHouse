@@ -1,0 +1,95 @@
+.alineado{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+   
+}
+.drop{
+    background-color: $mainBg;
+    color: $mainColor;
+    border-radius: 7px;
+    padding: 4px 10px;
+    margin-right: 10px;
+    font-size: 1em;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    grid-template-rows:100px repeat(3,1fr);
+    gap:5px;
+    margin:0px 30px;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "uno uno"
+    "dos tres"
+    "dos cuatro"
+    "cinco cuatro";
+   
+ 
+}
+.uno{
+    display: flex;
+    justify-content: end;
+    grid-area: uno;
+    
+   
+}
+.dos{
+    display: flex;
+
+    grid-area: dos;
+
+}
+
+.tres{ 
+    display: flex;
+    grid-area: tres;
+    align-items:end;
+   
+   
+}
+.tres img{
+    
+    width: 50%;
+}
+.cuatro{display: flex;
+    grid-area: cuatro;
+}
+
+.cinco{display: flex;
+    grid-area: cinco;
+}
+.titulo{
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+}
+.boton{
+    color: white;
+    background-color: rgb(25, 23, 23);
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 4px;
+        &:hover{
+            color: $mainColor;
+            background-color: $secondaryColor;
+        }
+}
+.botonOf{
+  @extend.boton;
+  width: 80%;
+
+}
+.sizeProduc{
+    h2{
+        font-size: 1.3em ;
+    }
+    a{
+        font-size: 0.8em;
+    }
+}
+.animacion:hover{
+    transform: translate(0px,-10px);
+    transition: all 1s;
+}

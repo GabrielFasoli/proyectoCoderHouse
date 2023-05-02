@@ -1,453 +1,290 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-
-}
-html{
-    font-size: 62.5%;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(12, 11, 11);
-   background-attachment:fixed;
+  background-attachment: fixed;
 }
 
-header img{
-    
-    width: 100%;
-   
-    
+h1 {
+  font-weight: 600;
+  font-size: 2.5em;
+  margin: 45px;
 }
 
-.botonera{
-    background-color: rgb(19, 18, 18);
-    position: sticky;
-    top: 0;
-    right: 0;
-
-   
-
+h2 {
+  font-weight: 600;
+  font-size: 2.2em;
+  margin: 45px;
 }
 
-
-     
-
-
-    nav a img{
-        
-        height: 110px;
-        margin: 0 30px;
-    } 
- 
-        nav ul{
-                font-size: 1.8rem;
-                list-style: none;
-                display: flex;
-                align-items: end;
-                margin: 0px 10px;
-                }
-            nav ul li{ 
-                display: flex;
-                margin: 0 10px;
-                
-                }
-                nav ul li a{
-                    
-                        text-decoration: none;
-                        
-                         }
-
-                     ul li :hover{  
-                        color: rgb(152, 148, 148);
-                        cursor: pointer;
-                        
-                    
-                         }
-                    nav ul li form{
-                        text-decoration-color: black;
-                    }
-                         
-
-h1{
-     font-weight: bold;
-    font-size: 4rem;
-    margin: 30px;
-            
-    }
-
-h2{
-     font-weight: bold;
-    font-size: 3.5rem;
-     
-
-    }
-        footer{
-            background-color: black;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            
-        }
-        footer a{
-            text-decoration: none;
-        }
-        footer ul{
-            display: flex;
-            margin: 0px 30px;
-            font-size: 1.8rem;
-            list-style: none;
-            text-decoration: none;
-        }
-        footer ul li {
-            margin: 15px;
-            
-        }
-            footer ul li a{
-                color: white;
-                text-decoration: none;
-            }
-
-
-                footer div a svg {
-                     width: 38px;
-                     height: 31px;
-                     margin-left: 30px;
-                  
-                    }
-
-
-.MarginForm{
-     margin: 10px 15px;
-            
-    } 
-                    
-.botonForm{
-     color: black;
-     margin-left: 15px;
-     
-    }
-        
-.classHover :hover{
-    color: rgb(152, 148, 148);
-    cursor: pointer;
+.botonera {
+  background-color: black;
 }
- 
- figcaption{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    margin: 10px 15px;
+.botonera img {
+  height: 110px;
+  margin-left: 35px;
+  margin-bottom: 6px;
 }
-
-.productos{
-
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    
+.botonera ul {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  margin: 0px 10px;
 }
-.productos figure{
-    width: 22%;
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 15px;
-    background-color: rgb(0, 0, 0);
-    margin: 30px auto ;
-}
-
-.productos figure figcaption{
-    font-size: 1.6rem;
-}
-.productos figure img{
-    width: 100%;
-}
-.productos figure button{
-    padding: 5px ;
-    margin-bottom: 15px;
-    margin-left: 34%;
-    background-color: rgb(244, 236, 236);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    border: none;
-    
-}
-.Main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-.Main figure{
-    width: 30%;
-    margin: 0px 30px;
-    
-}
-.Main figure a img{
-    width: 100%;
-    
-}
-.Main figure figcaption{
-    font-size: 2rem;
-}
-
-
-.bg-gris{
-    background-color: gray;
-}
-/*Grid*/
-.alineado{
-    display: flex;
-    justify-content: end;
-    margin-right: 20px;
-}
-.drop{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 7px;
-    padding: 4px 10px;
-    margin: 10px 8px;
-    font-size: 1.5rem;
-
-}
-
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(2,0.5fr);
-    grid-template-rows:100px repeat(3,1fr);
-    gap:5px;
-    margin:0px 30px;
-    margin-bottom: 30px;
-    grid-template-areas: 
-    "uno uno"
-    "dos tres"
-    "dos cuatro"
-    "cinco cuatro";
- 
-}
-.uno{
-    display: flex;
-    justify-content: end;
-    grid-area: uno;
-    margin-right: -10px;
-   
-}
-.dos{
-    display: flex;
-
-    grid-area: dos;
-
-}
-
-.tres{ 
-    display: flex;
-    grid-area: tres;
-    align-items:end;
-   
-   
-}
-.tres img{
-    
-    width: 50%;
-}
-.cuatro{display: flex;
-    grid-area: cuatro;
-}
-
-.cinco{display: flex;
-    grid-area: cinco;
-}
-/*detalles*/
-.titulo{
-    color: black;
-}
-.boton{
-    width: 80%;
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-/*End Grid*/
-.img{
-    width: 100%;
-}
-/*Responsive*/
-
-@media(width<992px){ 
-    .alineado{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .none{
-        display: none;
-    }
-    
-    h1, h2{
-        text-align: center;
-    }
-    .contenedor{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 100px repeat(2,1fr);
-        grid-template-areas: "uno uno "
-        "dos tres"
-        "cuatro cinco";
-   
-    }
-    .uno  {
-        justify-content: center;
-        align-items: center;
-    }
-    .tres{
-        
-        flex-direction: column;
-       
-        align-items: center;
-        }
-        .tres img{
-            width: auto;
-        }
-        .tres a{
-            width: 100%;
-        }
-       
-        
-}
-
-@media(width<576px){
-   
-    h1, h2{
-    
-        text-align: center;
-    }
-    .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-rows: 5 auto;
-        gap: 10px;
-        grid-template-areas: "uno"
-        "dos"
-        "tres"
-        "cuatro"
-        "cinco";
-        
-    }
-    .uno  {
-        justify-content: center;
-        align-items: center;
-    }
-    .tres{
-        
-        flex-direction: column;
-       
-        align-items: center;
-        }
-        .tres img{
-            width: auto;
-        }
-        
-    .tres a{
-       width: 100%;
-        
-    }
-     footer{
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        
-     }
-     footer ul{
-        flex-direction: column ;
-        margin: 0px;
-   
-     }
-     footer ul li{
-        margin-top:2px ;
-        margin-bottom: 1px;
-     }
-   
-
-}
-/* End Responsive*/
-/*bootstrap*/
-.botonera{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    background-color: black;
-}
-.botonera nav{
-    display: flex;
-
-}
-.botonera nav ul{
-    display: flex;
-    
+.botonera ul li {
+  margin: 0 10px;
 }
 .botonera ul li a {
-    margin: 0px 15px;
-    color: rgb(246, 246, 246);
+  margin: 0px 15px;
+  color: rgb(255, 255, 255);
 }
-.botonera form input{
-    font-size: 1.2rem;
-    padding: 5px;
-   
+.botonera ul li a:hover {
+  color: rgb(152, 148, 148);
 }
-.botonera form button{
-    width: 30px;
-    margin-left: 5px;
-    border: none;
-    background-color: black;
-    border-color: rgb(0, 0, 0);
-    color: rgb(254, 254, 254);
+.botonera form input {
+  font-size: 0.7em;
+  padding: 5px;
 }
-.carrito{
-    width: 25px;
-     border: none;
-     background-color: rgb(0, 0, 0);
- }
-.carrito2{
-   width: 30px;
-    border: none;
-    background-color: rgb(0, 0, 0);
+.botonera form button {
+  width: 45px;
+  border: none;
+  background-color: black;
+  border-color: rgb(0, 0, 0);
+  color: rgb(254, 254, 254);
 }
-.botonera ul li a:hover{
-    color: rgb(152, 148, 148);
- 
-}
-.botonera img{ 
- 
-margin-bottom: 5px;
-   
-}
-.super{
 
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-
-   
-
-
-
-   
+.carrito {
+  color: rgb(255, 255, 255);
+  width: 40px;
+  border: none;
+  background-color: rgb(0, 0, 0);
 }
-.super:hover{
-    color: rgb(252, 250, 250);
-    background-color: rgb(174, 171, 171);
 
+.carrito2 {
+  color: rgb(255, 255, 255);
+  width: 45px;
+  border: none;
+  background-color: rgb(0, 0, 0);
 }
-.burger{
-    width: 40px;
+
+.burger {
+  width: 40px;
 }
-/*indumetaria y equipamiento*/
-.alineado{
-    display: flex;
-    
+
+header img {
+  width: 100%;
 }
+
+.super {
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.super:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(152, 148, 148);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+footer ul {
+  display: flex;
+  margin: 0px 30px;
+  font-size: 1.1em;
+  list-style: none;
+  text-decoration: none;
+}
+footer ul li {
+  margin: 15px;
+}
+footer ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: rgb(152, 148, 148);
+}
+footer div a svg {
+  width: 38px;
+  height: 31px;
+}
+footer a {
+  text-decoration: none;
+}
+
+.alineado {
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+}
+
+.drop {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  padding: 4px 10px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 100px repeat(3, 1fr);
+  gap: 5px;
+  margin: 0px 30px;
+  margin-bottom: 30px;
+  grid-template-areas: "uno uno" "dos tres" "dos cuatro" "cinco cuatro";
+}
+
+.uno {
+  display: flex;
+  justify-content: end;
+  grid-area: uno;
+}
+
+.dos {
+  display: flex;
+  grid-area: dos;
+}
+
+.tres {
+  display: flex;
+  grid-area: tres;
+  align-items: end;
+}
+
+.tres img {
+  width: 50%;
+}
+
+.cuatro {
+  display: flex;
+  grid-area: cuatro;
+}
+
+.cinco {
+  display: flex;
+  grid-area: cinco;
+}
+
+.titulo {
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+}
+
+.boton, .botonOf {
+  color: white;
+  background-color: rgb(25, 23, 23);
+  font-size: 0.8em;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.boton:hover, .botonOf:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(152, 148, 148);
+}
+
+.botonOf {
+  width: 80%;
+}
+
+.sizeProduc h2 {
+  font-size: 1.3em;
+}
+.sizeProduc a {
+  font-size: 0.8em;
+}
+
+.animacion:hover {
+  transform: translate(0px, -10px);
+  transition: all 1s;
+}
+
+@media (width < 992px) {
+  .alineado {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .none {
+    display: none;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  .contenedor {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px repeat(2, 1fr);
+    grid-template-areas: "uno uno " "dos tres" "cuatro cinco";
+  }
+  .uno {
+    justify-content: center;
+    align-items: center;
+  }
+  .tres {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tres img {
+    width: auto;
+  }
+  .tres a {
+    width: 100%;
+  }
+}
+@media (width < 576px) {
+  h1, h2 {
+    text-align: center;
+  }
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5 auto;
+    gap: 10px;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco";
+  }
+  .uno {
+    justify-content: center;
+    align-items: center;
+  }
+  .tres {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tres img {
+    width: auto;
+  }
+  .tres a {
+    width: 100%;
+  }
+  footer {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  footer ul {
+    flex-direction: column;
+    margin: 0px;
+  }
+  footer ul li {
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
