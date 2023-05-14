@@ -12,14 +12,16 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  color: rgb(255, 255, 255);
   font-size: 2.5em;
+  font-weight: 600;
   margin: 45px;
 }
 
 h2 {
-  font-weight: 600;
+  color: rgb(255, 255, 255);
   font-size: 2.2em;
+  font-weight: 600;
   margin: 45px;
 }
 
@@ -52,6 +54,12 @@ h2 {
 .contactoD {
   display: flex;
   justify-content: space-between;
+}
+.contactoD iframe {
+  margin-left: 45px;
+}
+.contactoD form {
+  margin-right: 45px;
 }
 
 .botonera {
@@ -278,13 +286,23 @@ footer a {
     flex-direction: column;
     align-items: center;
   }
+  .contactoD iframe {
+    margin-right: 45px;
+    width: 90%;
+  }
+  .contactoD form {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 90%;
+  }
 }
 @media (width < 576px) {
-  .collapse ul {
-    align-items: end;
-  }
   h1, h2 {
     text-align: center;
+  }
+  .super {
+    top: 50%;
+    left: 29%;
   }
   .contenedor {
     grid-template-columns: 1fr;
@@ -312,11 +330,26 @@ footer a {
   }
   footer ul {
     flex-direction: column;
-    margin: 0px;
+    margin: 0px -15px;
   }
   footer ul li {
     margin-top: 2px;
     margin-bottom: 1px;
+  }
+  .contactoD iframe {
+    margin-right: 45px;
+    width: 90%;
+  }
+  .contactoD form {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 90%;
+  }
+  .img-404 {
+    flex-direction: column-reverse;
+  }
+  .img-404 img {
+    margin-top: 30px;
   }
 }
 

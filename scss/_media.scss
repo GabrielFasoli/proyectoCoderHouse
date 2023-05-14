@@ -42,6 +42,16 @@
         .contactoD{
             flex-direction: column;
             align-items: center;
+            iframe{
+             margin-right: 45px;   
+             width: 90%;
+            }
+            form{
+                margin-right: 30px;
+                margin-left: 30px;
+                width: 90%;
+        
+            }
            } 
         
 }
@@ -49,18 +59,16 @@
 
 @media(width<576px){
 
-    .collapse{
-        ul{
-            align-items: end
-        }
-
-    }
+   
     
     h1, h2{
     
         text-align: center;
     }
-    
+    .super{
+        top:50%;
+        left: 29%;
+    }
     .contenedor{
         grid-template-columns: 1fr;
         grid-template-rows: 5 auto;
@@ -95,7 +103,7 @@
         justify-content: space-between;
             ul{
                 flex-direction: column ;
-                margin: 0px;
+                margin: 0px -15px;
                     li{
                         margin-top:2px ;
                         margin-bottom: 1px;
@@ -103,7 +111,26 @@
                 }
      }
      
-     
- 
+     .contactoD{
+        iframe{
+           margin-right: 45px;
+            width: 90%;
+        }
+        form{
+            margin-right: 30px;
+            margin-left: 30px;
+            width: 90%;
+    
+        }
+     }
+ .img-404{
+    flex-direction: column-reverse;
+   
+    img{
+        margin-top: 30px;
+    }
+   
+    
+ }
 
 }

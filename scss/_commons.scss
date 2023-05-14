@@ -12,16 +12,12 @@ body{
     
   }
 h1{
-    font-weight: $fontBolt;
-    font-size: $textLg ;
-    margin: 45px;
+    @include H($textLg,$fontBolt,45px)
            
    }
 
 h2{
-    font-weight: $fontBolt;
-    font-size:$textMd;
-    margin:  45px;
+  @include H($textMd,$fontBolt,45px)
 }
 //Error404//
 .e-404{
@@ -58,6 +54,12 @@ display: flex;
 .contactoD{
   display: flex;
   justify-content: space-between;
-
+    iframe{
+      margin-left: 45px;
+    }
+    form{
+      margin-right: 45px;
+    }
+    
 
 }

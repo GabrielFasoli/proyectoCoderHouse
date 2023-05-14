@@ -25,3 +25,11 @@ $fontBolt:600;
     align-items: $aling;
     flex-wrap: $wrap;
 }
+@mixin H($Size,$Weigth,$margin){
+    color: $mainColor;
+    font-size: $Size;
+    font-weight: $Weigth;
+    margin: $margin;
+    
+
+}
