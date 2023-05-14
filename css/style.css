@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(12, 11, 11);
+  background-color: rgb(20, 17, 17);
   background-attachment: fixed;
 }
 
@@ -21,6 +21,37 @@ h2 {
   font-weight: 600;
   font-size: 2.2em;
   margin: 45px;
+}
+
+.e-404 {
+  display: flex;
+}
+
+.img-404 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.img-404 h1 {
+  margin-right: 45px;
+  margin-top: 40px;
+}
+.img-404 h2 {
+  margin: 10px 45px;
+}
+.img-404 a {
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.img-404 a:hover {
+  color: rgb(152, 148, 148);
+}
+
+.contactoD {
+  display: flex;
+  justify-content: space-between;
 }
 
 .botonera {
@@ -212,11 +243,6 @@ footer a {
   font-size: 0.8em;
 }
 
-.animacion:hover {
-  transform: translate(0px, -10px);
-  transition: all 1s;
-}
-
 @media (width < 992px) {
   .alineado {
     justify-content: center;
@@ -248,8 +274,15 @@ footer a {
   .tres a {
     width: 100%;
   }
+  .contactoD {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (width < 576px) {
+  .collapse ul {
+    align-items: end;
+  }
   h1, h2 {
     text-align: center;
   }

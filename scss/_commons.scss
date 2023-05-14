@@ -7,7 +7,7 @@
 }
 
 body{
-     background-color: rgb(12, 11, 11);
+     background-color: rgb(20, 17, 17);
      background-attachment:fixed;
     
   }
@@ -21,5 +21,43 @@ h1{
 h2{
     font-weight: $fontBolt;
     font-size:$textMd;
-    margin: 45px;
+    margin:  45px;
+}
+//Error404//
+.e-404{
+display: flex;
+
+  
+ 
+}
+.img-404{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  
+  h1{
+    margin-right: 45px;
+    margin-top: 40px;
+  }
+  h2{
+    margin: 10px 45px;
+  }
+  
+  a{color:$mainColor;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+      &:hover{
+        color:$secondaryColor;
+
+      }
+   
+  }
+
+}
+.contactoD{
+  display: flex;
+  justify-content: space-between;
+
+
 }
