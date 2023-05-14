@@ -12,15 +12,24 @@ Desarrollo del Sitio Web
 ----
 Primero comenze realizando los wireframas de cada pagina tanto para desktop como mobile, por suerte no tuve que cambiar casi nada los wifreame iniciales ya que pude moldear el html y css para que quede lo mas parecido posible, a continuacion dejare los links de los wireframe y  la comparacion con el desarrollo final.
 https://wireframe.cc/UrQKI9 (Inicio)
+
 https://wireframe.cc/hHV9Ie (Indumentaria)
+
 https://wireframe.cc/RbSklQ (Equipamiento)
+
 https://wireframe.cc/kS03j0 (Ofertas)
+
 https://wireframe.cc/JHDQLO (Contacto)
 
 https://wireframe.cc/S0SsxG (Inicio Mobile)
+
 https://wireframe.cc/HuleSB (Indumentaria Mobile)
+
 https://wireframe.cc/GngVgM (Equipamiento Mobile)
+
 https://wireframe.cc/MWVUsz (Ofertas Mobile)
+
 https://wireframe.cc/nONeat (Contacto Mobile)
+
 
 
