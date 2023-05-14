@@ -11,6 +11,7 @@ Al principio del curso mi idea de desarrollar el sitio web iba más orientado a 
 Desarrollo del Sitio Web
 ----
 Primero comenze realizando los wireframas de cada pagina tanto para desktop como mobile, por suerte no tuve que cambiar casi nada los wifreame iniciales ya que pude moldear el html y css para que quede lo mas parecido posible, a continuacion dejare los links de los wireframe y  la comparacion con el desarrollo final.
+
 https://wireframe.cc/UrQKI9 (Inicio)
 
 https://wireframe.cc/hHV9Ie (Indumentaria)
@@ -31,5 +32,6 @@ https://wireframe.cc/MWVUsz (Ofertas Mobile)
 
 https://wireframe.cc/nONeat (Contacto Mobile)
 
+![image]
 
 
