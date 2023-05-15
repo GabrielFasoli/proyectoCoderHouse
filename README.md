@@ -32,6 +32,38 @@ https://wireframe.cc/MWVUsz (Ofertas Mobile)
 
 https://wireframe.cc/nONeat (Contacto Mobile)
 
-https://github.com/GabrielFasoli/proyectoCoderHouse/blob/main/imagenes/imagenes-readme/FooterWiframe.png
+Main
+---
+
+En los mains del sitio pude implementar varios recursos para darle diseño como boostrap, flex box, box model y grids 
+
+las páginas de inicio, indumentaria, equipamientos estan formadas por cards y sistema de grillas de boostrap 
+
+por otro lado en ofertas decidí hacer un grid para posicionar de manera distintas las cards.
+
+Footer
+---
+
+En esta parte utilicé flexbox como a su vez svg para los links de las redes sociales.
+
+Responsive
+---
+
+El sitio es completamente responsive.
+
+En casi todas las páginas hice implementación del sistema de grillas de boostrap como algunos retoques con @media 
+
+menos en la página de ofertas que use grids 
+
+
+
+Links
+---
+
+Link del deployment de Github pages: https://gabrielfasoli.github.io/proyectoCoderHouse/index.html
+
+Link de mi dominio en vercel: https://gf-indumentaria.vercel.app/
+
+gracias por leerme!!
 
 
