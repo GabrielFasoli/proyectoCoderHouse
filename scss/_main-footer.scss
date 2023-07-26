@@ -21,7 +21,13 @@ header{
    
 }
 
-
+.colorA{
+    margin-top: -15px;
+    margin-bottom: -1px;
+    text-align: center;
+   color: black
+    
+}
 footer{
     @include flex(row,space-between,center,nowrap);
     background-color: black;

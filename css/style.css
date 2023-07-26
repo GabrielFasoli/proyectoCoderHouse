@@ -134,6 +134,13 @@ header img {
   background-color: rgb(152, 148, 148);
 }
 
+.colorA {
+  margin-top: -15px;
+  margin-bottom: -1px;
+  text-align: center;
+  color: black;
+}
+
 footer {
   display: flex;
   flex-direction: row;

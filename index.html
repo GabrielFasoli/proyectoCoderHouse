@@ -56,7 +56,7 @@
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
           </svg>
         </button>
-        <button class="me-4 mt-3 carrito none">
+        <button id="carritoDeCompra" class="me-4 mt-3 carrito none">
           <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
             <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
           </svg>
@@ -120,10 +120,11 @@
     <div class="row sizeProduc ">
     <article class="col-sm-12 col-md-6 col-lg-3 mb-4 ">
       <div class="card ">
-        <img src="imagenes/zapatillas/nike-metcon8-hombre-azul.jpg" class="card-img-top w-100 " alt="zapatillas nike azules ">
+        <img  src="imagenes/zapatillas/nike-metcon8-hombre-azul.jpg" class="card-img-top w-100 " alt="zapatillas nike azules ">
         <div class="card-body">
-          <h3 class="card-title titulo mb-4 text-center">Nike Metcon 8</h3>
-          <a href="#" class="btn boton  w-100">+ Agregar al carrito</a>
+          <h3 id="nombre" class="card-title titulo mb-4 text-center">Nike Metcon 8</h3>
+          <p id="precio" class="colorA">$44.999</p>
+          <button id="1" class="btn boton  w-100" > Agregar al carrito</button>
         </div>  
       </article>
         <!--end 1 articulo-->
@@ -131,8 +132,9 @@
         <div class="card  ">
           <img src="imagenes/hombre/reebok-camiseta-verde2.jpg" class="card-img-top w-100" alt="remera manga corta verde">
           <div class="card-body">
-            <h3 class="card-title titulo mb-4 text-center"> Camiseta Reebok</h3>
-            <a href="#" class="btn boton  w-100">+ Agregar al carrito</a>
+            <h3 id="nombre2" class="card-title titulo mb-4 text-center"> Camiseta Reebok</h3>
+            <p id="precio2" class="colorA">$18.500</p>
+            <button id="2" class="btn boton  w-100" > Agregar al carrito</button>
           </div> 
         </article>
           <!--end 2 articulo-->
@@ -140,8 +142,9 @@
           <div class="card ">
             <img src="imagenes/mujer/nike-sujetador-deportivo-dri-fit-indy-sujecion-ligera-padded-graphic.jpg" class="card-img-top w-100" alt="top deportivo de mujer verde">
             <div class="card-body">
-              <h3 class="card-title titulo mb-4 text-center ">Top Deportivo Nike </h3>
-              <a href="#" class="btn boton  w-100">+ Agregar al carrito</a>
+              <h3 id="nombre3" class="card-title titulo mb-4 text-center ">Top Deportivo Nike </h3>
+              <p id="precio3" class="colorA">$20.999</p>
+              <button id="3"  class="btn boton  w-100" > Agregar al carrito</button>
             </div>
            </article>
           <!--end 3 articulo-->
@@ -149,13 +152,17 @@
           <div class="card ">
             <img src="imagenes/zapatillas/nanoX3AB.jpg" class="card-img-top w-100 " alt="zapatillas reebok ">
             <div class="card-body">
-              <h3 class="card-title titulo mb-4 text-center">Reebok Nano X3</h3>
-              <a href="#" class="btn boton w-100">+ Agregar al carrito</a>
+              <h3 id="nombre4" class="card-title titulo mb-4 text-center">Reebok Nano X3</h3>
+              <p id="precio4" class="colorA">$56.000</p>
+              <button id="4" class="btn boton  w-100" > Agregar al carrito</button>
             </div>
           </article> 
           <!--end 4 articulo-->
     </div>
     </div>
+    
+    <div id="contenedorCarrito" class="ContCarrito "></div>
+   
    
  </main>
   <footer>
@@ -187,6 +194,7 @@
     
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  
+  <script src="js/productos.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
