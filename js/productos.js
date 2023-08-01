@@ -14,21 +14,22 @@ const nombre4 = document.querySelector('#nombre4').innerText
 
 
 class Producto{
-    constructor(id,nombre,precio,img){
+    constructor(id,nombre,precio,img,cantidad){
         this.id= id
         this.nombre=nombre
         this.precio= parseInt(precio)
         this.img=img
+        this.cantidad=cantidad
         
     }
 }
 
 const productos = []
 
-productos.push(new Producto(1,nombre,44999,img))
-productos.push(new Producto(2,nombre2,18500,img2))
-productos.push(new Producto(3,nombre3,20999,img3))
-productos.push(new Producto(4,nombre4,56200,img4))
+productos.push(new Producto(1,nombre,44999,img,1))
+productos.push(new Producto(2,nombre2,18500,img2,1))
+productos.push(new Producto(3,nombre3,20999,img3,1))
+productos.push(new Producto(4,nombre4,56200,img4,1))
 
 console.log(productos)
 
