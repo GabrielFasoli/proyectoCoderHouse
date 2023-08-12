@@ -89,3 +89,113 @@
         font-size: 0.8em;
     }
 }
+
+.Cont-Carrito{
+    width: 25%;
+    margin: 0 14%;
+    height: 100vh;
+    color: rgb(245, 244, 244);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    overflow: scroll;
+    z-index:3;
+    left: 125vh;
+    top: 0vh;
+    scrollbar-color: none;
+
+        &::-webkit-scrollbar{display: none;}
+
+        .modal-header{
+            
+            display: flex;
+            color: white;
+            margin-left: 26px;
+            margin-top: 10px;
+           
+            .boton-header{
+                background-color: black;
+                border-radius: 1px;
+                border-color: white;
+                margin-right: 46px;
+                margin-bottom: 2px;
+               
+                
+                
+            }
+            
+        }
+            .carrito-cont{
+                display: flex;
+                
+
+               
+               .nombre-producto{
+                
+                margin-left: 30px;
+                font-size: 1em
+                ;
+               }
+               .precio{
+                
+                margin-left: 30px;
+               }
+
+                img{display: flex;
+                    width: 8vw;
+                    height: auto;
+                    margin-left: 30px;
+                   
+                }
+                .borrar{ 
+                   display: flex;
+                   align-items: center;
+                   margin-top: 45px;
+                   margin-left: 20px;
+                    height: 4vh; 
+                    background-color: black;
+                    border: none;
+                    svg{
+                        height: 30px;
+                        width: 25px;
+                    }   
+                }
+                .cont-cantidad{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 50px;
+                    align-items: center;
+                    margin-top: 50px;
+                    
+    
+                    
+                    .cantidad{
+                        margin-bottom: 15px;
+                        margin-left: -20px;
+                   
+                    
+                    }
+                    .total{
+                        margin-left: -20px;
+                    }
+                    .restar-cantidad{
+                        border-color: grey;
+                        background-color: black;
+                        cursor: pointer;
+                        margin-right: 10px;
+                    }
+                    .sumar-cantidad{
+                        
+                        background-color: black;
+                        border-color: grey;
+                        cursor: pointer;
+                        margin-left: 10px;
+                    }
+                }
+                
+            }
+}
+.hs{
+    text-align: center;
+}

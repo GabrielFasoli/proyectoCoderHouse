@@ -1,0 +1,89 @@
+.contenedor-usuario{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+        .inicio-mail{
+            width: 150%;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .inicio-contraseña{
+            width: 150%;
+            margin-left: 30px;
+        }
+        .boton-incio-sesion{
+            margin-left: 190px;
+            width: 395px;
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+        }
+}
+.user{
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+}
+.contenedor-registro{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    a{
+        margin: 10px 15px;
+        text-decoration: none;
+        color: white;
+       .candado{
+        margin-right: 10px;
+        margin-bottom: 3px;
+       }
+       .tilde{
+        margin-right: 5px;
+        width: 30px;
+        height: 25px;
+       }
+    }
+}
+
+.cont-registro{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .nombre-registro{
+            width: 25%;
+            margin-top: 20px;
+            margin-left: 180px;
+            margin-bottom: 10px;
+        }
+        .apellido-registro{
+            width: 25%;
+            margin-left: 180px;
+            margin-bottom: 10px;
+        }
+        .mail-regristo{
+            width: 25%;
+            margin-left: 180px;
+            margin-bottom: 10px;
+        }
+        .registro-contraseña{
+            width: 90%;;
+            margin-left: 115px;
+            margin-bottom: 10px;
+        }
+        .boton-registro{
+            margin-left: 115px;
+            width: 91%;
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .user-registro{
+            margin-left: 200px;
+            width: 200px;
+            height: 200px;
+        }
+}
