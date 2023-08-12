@@ -150,8 +150,9 @@
                 }
                 .borrar{ 
                    display: flex;
-                   margin-top: 50px;
-                   margin-left: 130px;
+                   align-items: center;
+                   margin-top: 45px;
+                   margin-left: 20px;
                     height: 4vh; 
                     background-color: black;
                     border: none;
@@ -160,10 +161,39 @@
                         width: 25px;
                     }   
                 }
-                .cantidad{
-                    margin-left: 20px;
-                    margin-top: 55px;
+                .cont-cantidad{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 50px;
+                    align-items: center;
+                    margin-top: 50px;
+                    
+    
+                    
+                    .cantidad{
+                        margin-bottom: 15px;
+                        margin-left: -20px;
+                   
+                    
+                    }
+                    .total{
+                        margin-left: -20px;
+                    }
+                    .restar-cantidad{
+                        border-color: grey;
+                        background-color: black;
+                        cursor: pointer;
+                        margin-right: 10px;
+                    }
+                    .sumar-cantidad{
+                        
+                        background-color: black;
+                        border-color: grey;
+                        cursor: pointer;
+                        margin-left: 10px;
+                    }
                 }
+                
             }
 }
 .hs{

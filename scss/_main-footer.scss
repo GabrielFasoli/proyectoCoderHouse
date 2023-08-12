@@ -29,6 +29,7 @@ header{
     
 }
 footer{
+   height: 20vh;
     @include flex(row,space-between,center,nowrap);
     background-color: black;
  

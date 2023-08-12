@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -62,6 +63,32 @@ h2 {
   margin-right: 45px;
 }
 
+.h1-coment {
+  text-align: center;
+}
+
+.div-coment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.div-coment .carga {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#comentarios {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.card-coment {
+  background-color: black;
+}
+
 .botonera {
   z-index: 1;
   background-color: black;
@@ -105,8 +132,20 @@ h2 {
   border: none;
   background-color: rgb(0, 0, 0);
 }
+.carrito .cantidad-carrito {
+  background-color: rgb(142, 142, 142);
+  color: rgb(255, 255, 255);
+  width: 20px;
+  height: 23px;
+  margin-top: -42px;
+  margin-left: 22px;
+  border-radius: 50%;
+  font-size: 1em;
+  position: absolute;
+  display: none;
+}
 
-.carrito2 {
+.usuario {
   color: rgb(255, 255, 255);
   width: 45px;
   border: none;
@@ -143,6 +182,7 @@ header img {
 }
 
 footer {
+  height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -308,8 +348,9 @@ footer a {
 }
 .Cont-Carrito .carrito-cont .borrar {
   display: flex;
-  margin-top: 50px;
-  margin-left: 130px;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 20px;
   height: 4vh;
   background-color: black;
   border: none;
@@ -318,9 +359,31 @@ footer a {
   height: 30px;
   width: 25px;
 }
-.Cont-Carrito .carrito-cont .cantidad {
-  margin-left: 20px;
-  margin-top: 55px;
+.Cont-Carrito .carrito-cont .cont-cantidad {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+.Cont-Carrito .carrito-cont .cont-cantidad .cantidad {
+  margin-bottom: 15px;
+  margin-left: -20px;
+}
+.Cont-Carrito .carrito-cont .cont-cantidad .total {
+  margin-left: -20px;
+}
+.Cont-Carrito .carrito-cont .cont-cantidad .restar-cantidad {
+  border-color: grey;
+  background-color: black;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.Cont-Carrito .carrito-cont .cont-cantidad .sumar-cantidad {
+  background-color: black;
+  border-color: grey;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .hs {
@@ -427,6 +490,95 @@ footer a {
   .img-404 img {
     margin-top: 30px;
   }
+}
+.contenedor-usuario {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-usuario .inicio-mail {
+  width: 150%;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.contenedor-usuario .inicio-contraseña {
+  width: 150%;
+  margin-left: 30px;
+}
+.contenedor-usuario .boton-incio-sesion {
+  margin-left: 190px;
+  width: 395px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.user {
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor-registro {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+}
+.contenedor-registro a {
+  margin: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+.contenedor-registro a .candado {
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+.contenedor-registro a .tilde {
+  margin-right: 5px;
+  width: 30px;
+  height: 25px;
+}
+
+.cont-registro {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-registro .nombre-registro {
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+.cont-registro .apellido-registro {
+  width: 25%;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+.cont-registro .mail-regristo {
+  width: 25%;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+.cont-registro .registro-contraseña {
+  width: 90%;
+  margin-left: 115px;
+  margin-bottom: 10px;
+}
+.cont-registro .boton-registro {
+  margin-left: 115px;
+  width: 91%;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+.cont-registro .user-registro {
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

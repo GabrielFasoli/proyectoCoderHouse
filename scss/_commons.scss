@@ -64,3 +64,29 @@ display: flex;
     
 
 }
+.h1-coment{text-align: center;}
+.div-coment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    align-content: center;
+    .carga{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      display: none
+      ;
+      
+    }
+      
+ 
+}
+#comentarios{
+  color: black;
+  margin-bottom: 30px 
+;
+}
+.card-coment{
+
+  background-color: black;
+}

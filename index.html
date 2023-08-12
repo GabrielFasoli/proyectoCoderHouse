@@ -12,13 +12,14 @@
     <title>GF Indumetaria </title>
     <link rel="shortcut icon" href="imagenes/Logos-banner/icono.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg botonera sticky-top">
     <div class="container-fluid">
       <!--logo-->
-      <a class="navbar-brand mb-lg-3 mx-md-auto m-sm-auto " href="index.html">
+      <a id="index" class="navbar-brand mb-lg-3 mx-md-auto m-sm-auto " href="index.html">
         <img  src="imagenes/Logos-banner/logoGF.svg" alt="Logo de la marca">
       </a>
       
@@ -36,7 +37,7 @@
             <a class="nav-link  " href="pages/indumetaria.html">Indumentaria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/equipamiento.html">Equipamiento</a>
+            <a id="equipamiento" class="nav-link" href="pages/equipamiento.html">Equipamiento</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/ofertas.html">Ofertas</a>
@@ -51,15 +52,17 @@
           </button>
        
         </form>
-        <button class="me-3 mt-3  carrito2 none">
-          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <button  class="me-3 mt-3  usuario none">
+          <a href="pages/usuario.html"> <svg  xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-          </svg>
+          </svg></a>
+         
         </button>
         <button id="carritoDeCompra" class="me-4 mt-3 carrito none">
           <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
             <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
           </svg>
+          <span id="carrito-cantidad" class="cantidad-carrito"></span>
         </button>
       </div>
     </div>
@@ -113,11 +116,13 @@
 </div>
 </div>
 </section> 
-  
+
+<section id="section-cont">  
+
     <h2 class="my-5 mx-5  text-sm-center text-lg-start text-md-start ">Recomendados</h2>
 
-    <div class="container-fluid px-5 mb-5" >
-    <div class="row sizeProduc ">
+    <div class="container-fluid px-5 mb-5 row sizeProduc" >
+    
     <article class="col-sm-12 col-md-6 col-lg-3 mb-4 ">
       <div class="card ">
         <img  src="imagenes/zapatillas/nike-metcon8-hombre-azul.jpg" class="card-img-top w-100 " alt="zapatillas nike azules ">
@@ -158,9 +163,10 @@
             </div>
           </article> 
           <!--end 4 articulo-->
+  
     </div>
-    </div>
-    
+  </section>
+ 
     
    
    
@@ -188,7 +194,7 @@
         <a href="pages/contacto.html">contacto</a>
       </li>
       <li>
-        <a href="pages/erorr-404.html">Devoluciones</a>
+        <a href="pages/comentarios.html">Comentarios</a>
       </li>
     </ul>
     
@@ -197,5 +203,7 @@
   <script src="js/productos.js"></script>
   <script src="js/main.js"></script>
   <script src="js/carrito.js"></script>
+  <script src="js/usuario-registro.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
